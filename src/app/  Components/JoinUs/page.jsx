@@ -21,8 +21,8 @@ const CallToAction8 = () => {
                   </h2>
                   <p className="text-lg opacity-80 mb-12 lg:mr-12">
                     Bring your imaginative world to vivid virtual life. Embark
-                    on virtual opulence with India's foremost 360° tour & CGI
-                    expert, revitalizing your digital experience.
+                    on virtual opulence with India&apos;s foremost 360° tour &
+                    CGI expert, revitalizing your digital experience.
                   </p>
 
                   <div>

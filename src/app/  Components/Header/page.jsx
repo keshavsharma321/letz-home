@@ -49,23 +49,23 @@ const Header = () => {
                     href="#"
                     class="block py-2 pr-4 pl-3 lg:p-0 dark:text-white lg:dark:hover:text-cyan-400 hover:underline hover:text-cyan"
                   >
-                    About
+                    Categories
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    href="#"
-                    class="block py-2 pr-4 pl-3 lg:p-0 dark:text-white lg:dark:hover:text-cyan-400 hover:underline hover:text-cyan"
-                  >
-                    Location
-                  </a>
-                </li> */}
                 <li>
                   <a
                     href="#"
                     class="block py-2 pr-4 pl-3 lg:p-0 dark:text-white lg:dark:hover:text-cyan-400 hover:underline hover:text-cyan"
                   >
-                    Categories
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 pr-4 pl-3 lg:p-0 dark:text-white lg:dark:hover:text-cyan-400 hover:underline hover:text-cyan"
+                  >
+                    About
                   </a>
                 </li>
                 <li>
