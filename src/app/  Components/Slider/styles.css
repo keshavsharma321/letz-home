@@ -1,0 +1,159 @@
+.main {
+  color: #ffffffdd;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  height: 600px;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 0.6);
+}
+
+.card-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ffffffdd;
+  padding-left: 16px;
+}
+
+.content-place {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.content-place {
+  font-weight: 500;
+}
+
+.content-title-1,
+.content-title-2 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.content-start {
+  width: 30px;
+  height: 5px;
+  border-radius: 99px;
+  background-color: #ffffffdd;
+}
+
+.details {
+  z-index: 22;
+  position: absolute;
+  top: 100px;
+  /* left: 20px; */
+}
+.details .place-box {
+  height: 46px;
+  overflow: hidden;
+}
+.details .place-box .text {
+  padding-top: 16px;
+  font-size: 20px;
+  margin-left: 1px;
+}
+.details .place-box .text:before {
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 4px;
+  border-radius: 99px;
+  background-color: white;
+}
+.details .title-1,
+.details .title-2 {
+  font-weight: 600;
+  font-size: 72px;
+  font-family: "Oswald", sans-serif;
+}
+.details .title-box-1,
+.details .title-box-2 {
+  margin-top: 2px;
+  height: 100px;
+  overflow: hidden;
+}
+.details > .desc {
+  margin-top: 16px;
+  width: 500px;
+}
+.details > .cta {
+  width: 500px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.details > .cta > .bookmark {
+  border: none;
+  background-color: cyan;
+  width: 36px;
+  height: 36px;
+  border-radius: 99px;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+.details > .cta > .bookmark svg {
+  width: 20px;
+  height: 20px;
+}
+.details > .cta > .discover {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 36px;
+  border-radius: 99px;
+  color: #ffffff;
+  padding: 4px 24px;
+  font-size: 12px;
+  margin-left: 16px;
+  text-transform: uppercase;
+}
+
+.indicator {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 5px;
+  z-index: 60;
+  background-color: cyan;
+}
+
+body {
+  overflow-x: hidden;
+}
+.indicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 5px;
+  z-index: 60;
+  background-color: cyan;
+}
+
+.details {
+  z-index: 22;
+  position: absolute;
+  top: 100px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+}
+
+.pagination {
+  z-index: 50;
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translateX(-50%);
+}
